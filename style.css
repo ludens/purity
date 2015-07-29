@@ -38,9 +38,10 @@ body, .pure-g [class*="pure-u"] { font-family: 'Raleway', 'NanumBarunGothic', sa
 
 /* 컨텐츠영역 */
 .content { padding: 1.5em 1em 2em; }
+.article, .page, .paging, .footer { overflow-x: hidden; max-width: 1080px; }
 
 /* 페이지 */
-.page { border-bottom: 1px solid #eee; padding: 1em 0; overflow-x: hidden; max-width: 1280px; }
+.page { border-bottom: 1px solid #eee; padding: 1em 0; }
 .page .page-title { font-size: 2em; margin-bottom: 0.5em; padding-bottom: 0.5em; border-bottom: 1px solid #ccc; }
 .page ul { list-style: none; padding-left: 0; }
 /* 태그로그 */
@@ -72,7 +73,7 @@ body, .pure-g [class*="pure-u"] { font-family: 'Raleway', 'NanumBarunGothic', sa
 .article .metadata { font-size: 1em; }
 .article .admin { margin-top: 0.5em; }
 /* 글 본문영역 */
-.article .text { border-bottom: 1px solid #eee; padding: 1em 0; overflow-x: hidden; max-width: 1280px; }
+.article .text { border-bottom: 1px solid #eee; padding: 1em 0; }
 .article .text p { line-height: 150%; padding-bottom: 1em; }
 .article .text blockquote { border-left: 3px solid #ccc; padding-left: 1em; color: #777; margin: 1em; }
 .article .text blockquote p { padding-bottom: 0; }
@@ -91,7 +92,6 @@ body, .pure-g [class*="pure-u"] { font-family: 'Raleway', 'NanumBarunGothic', sa
 .article .text .txc-info { margin: 0 auto 1em !important; max-width: 530px; width: 100% !important; }
 .article .text .fb_iframe_widget { display: block; width: 100%; }
 .article .text .fb_iframe_widget span { display: block; margin: 0 auto 1em; }
-.article .text [id^='tistoryFootnoteLayer_'] { display: none; }
 /* 글 하단영역 */
 .article .tagTrail, .article .actionTrail { margin: 1em 0; }
 .article .tagTrail a:before { content: "#"; }
@@ -104,6 +104,7 @@ body, .pure-g [class*="pure-u"] { font-family: 'Raleway', 'NanumBarunGothic', sa
 .article .commentWrite textarea { margin-bottom: 1em; min-height: 5em; }
 .article .commentWrite .text-center span { display: block; }
 .article .commentWrite .text-center span label { display: inline; }
+.article .commentWrite .text-center span button { margin-top: 0.5em; }
 
 /* 페이징 */
 .paging { text-align: center; margin: 1em 0; }
@@ -116,8 +117,8 @@ body, .pure-g [class*="pure-u"] { font-family: 'Raleway', 'NanumBarunGothic', sa
 .footer { margin-top: 2em; text-align: center; font-size: 0.9em; color: #aaa; line-height: 180%; }
 
 /* 숨기기 */
-.sidebar { display: none; }
-.tistorytoolbarid, .tistorytoolbar { display: none; }
+.tistorytoolbarid, .tistorytoolbar { display: none; }/* 상단 티스토리 툴바 */
+[id^='tistoryFootnoteLayer_'] { display: none; }/* 각주 팝업 */
 
 /* custom style */
 .color-dark { color: #333 !important; }
@@ -153,6 +154,8 @@ body, .pure-g [class*="pure-u"] { font-family: 'Raleway', 'NanumBarunGothic', sa
 .content { margin-left: 25%; padding: 2em 3em; }
 .article .text blockquote { margin: 1em 2em; }
 .article .commentWrite .text-center span { display: inline; }
+.article .commentWrite .text-center span label { display: inline; }
+.article .commentWrite .text-center span button { margin-top: 0em; }
 }
 
 /* ≥ 1024px */
