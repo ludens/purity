@@ -6,14 +6,14 @@
 
 	<title>[##_title_##] | [##_page_title_##]</title>
 
-	<link rel="alternate" type="application/rss+xml" title="[##_title_##]" href="[##_rss_url_##]"/>
-	<link rel="shortcut icon" href="[##_blog_link_##]favicon.ico"/>
-	<link rel="stylesheet" href="//yui.yahooapis.com/pure/0.6.0/pure-min.css">
-	<link rel="stylesheet" href="//cdn.jsdelivr.net/font-nanumlight/1.0/nanumbarungothicweb.css"/>
-	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:300,400,700"/>
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.4/slicknav.min.css">
-	<link rel="stylesheet" href="./style.css"/>
+	<link rel="alternate" type="application/rss+xml" title="[##_title_##]" href="[##_rss_url_##]"/><!-- RSS피드 -->
+	<link rel="shortcut icon" href="[##_blog_link_##]favicon.ico"/><!-- 파비콘 -->
+	<link rel="stylesheet" href="//yui.yahooapis.com/pure/0.6.0/pure-min.css"><!-- Pure css -->
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/font-nanumlight/1.0/nanumbarungothicweb.css"/><!-- 나눔바른고딕 웹폰트 -->
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:300,400,700"/><!-- Raleway 웹폰트 -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"><!-- Font Awesome 웹폰트아이콘 -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.4/slicknav.min.css"><!-- SlickNav CSS -->
+	<link rel="stylesheet" href="./style.css"/><!-- 블로그 CSS -->
 
 	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,width=device-width"/>
 
@@ -31,15 +31,15 @@
 </head>
 
 <body class="pure-g">
-	<header class="header pure-u-1 pure-u-md-1-4" style="background-image: url('./images/bg.jpg');"/>
-		<div class="profile"><img src="[##_image_##]" alt="[##_blogger_##]"/></div>
-		<h1 class="blog-title"><a href="[##_blog_link_##]" class="color-white">[##_title_##]</a></h1> <!-- 블로그제목 -->
+	<header class="header pure-u-1 pure-u-md-1-4" style="background-image: url('./images/bg.jpg');"/><!-- 헤더 이미지 -->
+		<div class="profile"><img src="[##_image_##]" alt="[##_blogger_##]"/></div><!-- 프로필 사진 -->
+		<h1 class="blog-title"><a href="[##_blog_link_##]" class="color-white">[##_title_##]</a></h1><!-- 블로그 제목 -->
 		<div class="tagline color-white">[##_desc_##]</div>
-		<nav>[##_blog_menu_##]</nav> <!-- 블로그메뉴 -->
-		<div id="slicknav"></div>
+		<nav>[##_blog_menu_##]</nav><!-- 블로그 메뉴 -->
+		<div id="slicknav"></div><!-- 모바일용 메뉴 -->
 	</header>
 	<main role="main" class="content pure-u-1 pure-u-md-3-4 pure-u-xl-1-2">
-		<s_list> <!-- 글 검색결과 -->
+		<s_list><!-- 글 검색결과 -->
 			<div class="search page">
 				<h2 class="page-title"><i class="fa fa-search"></i> '[##_list_conform_##]' [##_list_count_##]건</h2>
 				<ul>
@@ -54,7 +54,7 @@
 				</ul>
 			</div>
 		</s_list>
-		<s_local> <!-- 위치로그 -->
+		<s_local><!-- 위치로그 -->
 			<div class="localog page">
 				<h2 class="page-title"><i class="fa fa-location-arrow"></i> 위치로그</h2>
 				<i class="fa fa-map-marker"></i>
@@ -69,7 +69,7 @@
 				</s_local_info_rep>
 			</div>
 		</s_local>
-		<s_tag> <!-- 태그로그 -->
+		<s_tag><!-- 태그로그 -->
 			<div class="taglog page">
 				<h2 class="page-title"><i class="fa fa-tags"></i> 태그</h2>
 				<ul>
@@ -79,10 +79,10 @@
 				</ul>
 			</div>
 		</s_tag>
-		<s_guest> <!-- 방명록 -->
+		<s_guest><!-- 방명록 -->
 			<div class="guestbook page">
 				<h2 class="page-title"><i class="fa fa-book"></i> 방명록</h2>
-				<s_guest_input_form> <!-- 방명록 글쓰기 -->
+				<s_guest_input_form><!-- 방명록 글쓰기 -->
 					<div class="guestWrite pure-form">
 						<s_guest_member>
 							<s_guest_form>
@@ -110,7 +110,7 @@
 						</div>
 					</div>
 				</s_guest_input_form>
-				<s_guest_container> <!-- 방명록 리스트 -->
+				<s_guest_container><!-- 방명록 리스트 -->
 					<div class="guestList">
 						<ol>
 							<s_guest_rep>
@@ -147,7 +147,7 @@
 				</s_guest_container>
 			</div>
 		</s_guest>
-		<s_notice_rep> <!-- 공지사항 -->
+		<s_notice_rep><!-- 공지사항 -->
 		<article class="article entryNotice">
 			<h2 class="post-title"><a href="[##_notice_rep_link_##]" class="color-dark">[##_notice_rep_title_##]</a></h2>
 			<div class="metadata">
@@ -157,7 +157,7 @@
 			<div class="text">[##_notice_rep_desc_##]</div>
 		</article>
 		</s_notice_rep>
-		<s_article_protected> <!-- 비밀글 -->
+		<s_article_protected><!-- 비밀글 -->
 		<article class="article entryProtected">
 			<h2 class="post-title"><a href="[##_article_rep_link_##]" class="color-dark">[##_article_rep_title_##]</a></h2>
 			<div class="metadata">
@@ -174,7 +174,7 @@
 			</div>
 		</article>
 		</s_article_protected>
-		<s_article_rep> <!-- 글 -->
+		<s_article_rep><!-- 포스팅 -->
 		<article class="article entry">
 			<h2 class="post-title"><a href="[##_article_rep_link_##]" class="color-dark">[##_article_rep_title_##]</a></h2>
 			<div class="metadata">
@@ -190,11 +190,11 @@
 					<a href="#" onclick="[##_s_ad_d_onclick_##]"><i class="fa fa-trash-o"></i> 삭제</a>
 				</div>
 			</s_ad_div>
-			<div class="text">[##_article_rep_desc_##]</div> <!-- 글 본문 -->
-			<s_tag_label> <!-- 태그 출력 -->
+			<div class="text">[##_article_rep_desc_##]</div><!-- 포스팅 본문 -->
+			<s_tag_label><!-- 태그 출력 -->
 				<div class="tagTrail dotted"><span class="tagText"><i class="fa fa-tag"></i></span> [##_tag_label_rep_##]</div>
 			</s_tag_label>
-			<div class="actionTrail dotted"> <!-- 트랙백, 댓글 갯수 출력 -->
+			<div class="actionTrail dotted"><!-- 트랙백, 댓글 갯수 출력 -->
 				<i class="fa fa-link"></i><a href="#tb" onclick="[##_article_rep_tb_link_##]">
 					<s_tb_count>엮인글 <span class="cnt">[##_article_rep_tb_cnt_##]</span>개</s_tb_count>
 				</a>
@@ -203,7 +203,7 @@
 					<s_rp_count>댓글 <span class="cnt">[##_article_rep_rp_cnt_##]</span>개</s_rp_count>
 				</a>
 			</div>
-			<s_tb> <!-- 트랙백 출력 -->
+			<s_tb><!-- 엮인글 출력 -->
 			<div class="trackback">
 			<h3 class="box-grey"><i class="fa fa-caret-right"></i> 엮인글 주소: [##_tb_address_##]</h3>
 				<s_tb_container>
@@ -222,9 +222,9 @@
 				</s_tb_container>
 			</div>
 			</s_tb>
-			<s_rp> <!-- 댓글 출력 -->
+			<s_rp><!-- 댓글 출력 -->
 				<div class="comment">
-					<div class="commentList"> <!-- 댓글 목록 -->
+					<div class="commentList"><!-- 댓글 목록 -->
 						<s_rp_container>
 							<ul>
 								<s_rp_rep>
@@ -261,7 +261,7 @@
 							</ol>
 						</s_rp_container>
 					</div>
-					<s_rp_input_form> <!-- 댓글 쓰기 -->
+					<s_rp_input_form><!-- 댓글 쓰기 -->
 						<div class="commentWrite pure-form">
 							<legend>댓글 남기기</legend>
 							<s_rp_member>
@@ -293,7 +293,7 @@
 			</s_rp>
 		</article>
 		</s_article_rep>
-		<s_paging> <!-- 페이징 -->
+		<s_paging><!-- 페이징 -->
 			<div class="paging">
 				<a [##_prev_page_##] class="[##_no_more_prev_##]">◀ PREV </a>
 				<span class="numbox">
@@ -302,22 +302,22 @@
 				<a [##_next_page_##] class="[##_no_more_next_##]">NEXT ▶</a>
 			</div>
 		</s_paging>
-		<footer class="footer pure-g dotted">
+		<footer class="footer pure-g dotted"><!-- 푸터 -->
 			<div class="pure-u-1 pure-u-sm-1-2 copyright1">
 				<a href="http://pure.ludens.kr">Purity skin</a> is designed by <a href="http://ludens.kr" rel="nofollow">Ludens</a>
 			</div>
 			<div class="pure-u-1 pure-u-sm-1-2 copyright2">
-				<a href="[##_blog_link_##]">[##_blogger_##]</a>'s Blog is powered by <a href="http://www.tistory.com">[##_tattertools_name_##]</a>
+				<a href="[##_blog_link_##]">[##_blogger_##]</a>'s Blog is powered by <a href="http://tistory.com">[##_tattertools_name_##]</a>
 			</div>
 		</footer>
 	</main>
 	<sidebar class="sidebar pure-u-1 pure-u-xl-1-4">
 	</sidebar>
 	<s_t3></s_t3>
-	<script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.js" type="text/javascript"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.4/jquery.slicknav.min.js" type="text/javascript"></script>
+	<script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.js" type="text/javascript"></script><!-- jQuery -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.4/jquery.slicknav.min.js" type="text/javascript"></script><!-- SlickNav -->
 	<script>$('nav ul').slicknav({prependTo:'#slicknav'});</script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js" type="text/javascript"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js" type="text/javascript"></script><!-- FitVids -->
 	<script>$(".text").fitVids({customSelector:"iframe[src^='http://videofarm.daum.net'],iframe[src^='http://serviceapi.rmcnmv.naver.com'],iframe[src^='http://serviceapi.nmv.naver.com'],iframe[src^='http://channel.pandora.tv']"});</script>
 </body>
 </html>
