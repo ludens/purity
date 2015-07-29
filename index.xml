@@ -14,9 +14,9 @@
 		</tags>
 	</information>
 	<author>
-		<name>Ludens </name>
+		<name>Ludens</name>
 		<homepage>http://ludens.kr</homepage>
-		<email> me@ludens.kr</email>
+		<email>me@ludens.kr</email>
 	</author>
 	<default>
 		<recentEntries>1</recentEntries>
@@ -50,7 +50,7 @@
 			<labelLength>27</labelLength>
 			<showValue>1</showValue>
 		</tree>
-		<contentWidth>1280</contentWidth>
+		<contentWidth>1080</contentWidth>
 		<layout>2</layout>
 		<toolbar>white</toolbar>
 		<menuList>
