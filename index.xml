@@ -2,9 +2,9 @@
 <skin>
 	<information>
 		<name>Pure</name>
-		<version>150729</version>
+		<version>1.0</version>
 		<description>
-			<![CDATA[ Pure CSS 프레임워크를 활용한 티스토리 반응형 스킨입니다. 데스크탑보다는 모바일 환경을 우선시했습니다. 이미지나 자바스크립트를 가능한한 최소화하는 것에 초점을 두고 만들어서 꽤 가볍습니다.]]>
+			<![CDATA[ Pure CSS를 활용한 티스토리 반응형 스킨입니다. 데스크탑보다는 모바일 환경에서 이쁘게 보입니다.]]>
 		</description>
 		<license>
 			<![CDATA[아래 저작권 표시만 남겨주시면 자유롭게 수정가능합니다 :)]]>
@@ -14,9 +14,9 @@
 		</tags>
 	</information>
 	<author>
-		<name>Ludens</name>
+		<name>Ludens </name>
 		<homepage>http://ludens.kr</homepage>
-		<email>me@ludens.kr</email>
+		<email> me@ludens.kr</email>
 	</author>
 	<default>
 		<recentEntries>1</recentEntries>
@@ -50,7 +50,7 @@
 			<labelLength>27</labelLength>
 			<showValue>1</showValue>
 		</tree>
-		<contentWidth>800</contentWidth>
+		<contentWidth>1280</contentWidth>
 		<layout>2</layout>
 		<toolbar>white</toolbar>
 		<menuList>
