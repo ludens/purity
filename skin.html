@@ -91,18 +91,20 @@
 					<div class="guestWrite pure-form">
 						<s_guest_member>
 							<s_guest_form>
-								<fieldset class="pure-group pure-g">
-									<div class="pure-u-1 pure-u-md-1-3">
-										<label for="name"><i class="fa fa-user"></i> 이름</label>
-										<input id="name" type="text" name="[##_guest_input_name_##]" value="[##_guest_name_##]" class="pure-u-23-24"/>
-									</div>
-									<div class="pure-u-1 pure-u-md-1-3">
-										<label for="password"><i class="fa fa-key"></i> 비밀번호</label>
-										<input id="password" type="password" maxlength="8" name="[##_guest_input_password_##]" value="[##_guest_password_##]" class="pure-u-23-24"/>
-									</div>
-									<div class="pure-u-1 pure-u-md-1-3">
-										<label for="homepage"><i class="fa fa-home"></i> 홈페이지</label>
-										<input id="homepage" type="text" name="[##_guest_input_homepage_##]" value="[##_guest_homepage_##]" class="pure-u-23-24"/>
+								<fieldset class="pure-group">
+									<div class="pure-g">
+										<div class="pure-u-1 pure-u-md-1-3">
+											<label for="name"><i class="fa fa-user"></i> 이름</label>
+											<input id="name" type="text" name="[##_guest_input_name_##]" value="[##_guest_name_##]" class="pure-u-23-24"/>
+										</div>
+										<div class="pure-u-1 pure-u-md-1-3">
+											<label for="password"><i class="fa fa-key"></i> 비밀번호</label>
+											<input id="password" type="password" maxlength="8" name="[##_guest_input_password_##]" value="[##_guest_password_##]" class="pure-u-23-24"/>
+										</div>
+										<div class="pure-u-1 pure-u-md-1-3">
+											<label for="homepage"><i class="fa fa-home"></i> 홈페이지</label>
+											<input id="homepage" type="text" name="[##_guest_input_homepage_##]" value="[##_guest_homepage_##]" class="pure-u-23-24"/>
+										</div>
 									</div>
 								</fieldset>
 							</s_guest_form>
@@ -157,6 +159,7 @@
 			<h2 class="post-title"><a href="[##_notice_rep_link_##]" class="color-dark">[##_notice_rep_title_##]</a></h2>
 			<div class="metadata">
 				<span class="category dotted"><i class="fa fa-archive"></i> <a href="/notice">공지사항</a></span>
+				|
 				<span class="date"><i class="fa fa-clock-o"></i> [##_notice_rep_date_##]</span>
 			</div>
 			<div class="text">[##_notice_rep_desc_##]</div>
@@ -167,6 +170,7 @@
 			<h2 class="post-title"><a href="[##_article_rep_link_##]" class="color-dark">[##_article_rep_title_##]</a></h2>
 			<div class="metadata">
 				<span class="category dotted"><i class="fa fa-archive"></i> 비밀글</span>
+				|
 				<span class="date"><i class="fa fa-clock-o"></i> [##_article_rep_date_##]</span>
 			</div>
 			<div class="text">
@@ -184,6 +188,7 @@
 			<h2 class="post-title"><a href="[##_article_rep_link_##]" class="color-dark">[##_article_rep_title_##]</a></h2>
 			<div class="metadata">
 				<span class="category dotted"><i class="fa fa-archive"></i> <a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a></span>
+				|
 				<span class="date"><i class="fa fa-clock-o"></i> [##_article_rep_date_##]</span>
 			</div>
 			<s_ad_div>
@@ -271,18 +276,20 @@
 							<legend>댓글 남기기</legend>
 							<s_rp_member>
 							<s_rp_guest>
-							<fieldset class="pure-group pure-g">
-								<div class="pure-u-1 pure-u-md-1-3">
-									<label for="name"><i class="fa fa-user"></i> 이름</label>
-									<input id="name" type="text" name="[##_rp_input_name_##]" value="[##_guest_name_##]" class="pure-u-1 pure-u-md-23-24"/>
-								</div>
-								<div class="pure-u-1 pure-u-md-1-3">
-									<label for="password"><i class="fa fa-key"></i> 비밀번호</label>
-									<input id="password" type="password" maxlength="8" name="[##_rp_input_password_##]" value="[##_rp_admin_check_##]" class="pure-u-1 pure-u-md-23-24"/>
-								</div>
-								<div class="pure-u-1 pure-u-md-1-3">
-									<label for="homepage"><i class="fa fa-home"></i> 홈페이지</label>
-									<input id="homepage" type="text" name="[##_rp_input_homepage_##]" value="[##_guest_homepage_##]" class="pure-u-1 pure-u-md-23-24"/>
+							<fieldset class="pure-group">
+								<div class="pure-g">
+									<div class="pure-u-1 pure-u-md-1-3">
+										<label for="name"><i class="fa fa-user"></i> 이름</label>
+										<input id="name" type="text" name="[##_rp_input_name_##]" value="[##_guest_name_##]" class="pure-u-1 pure-u-md-23-24"/>
+									</div>
+									<div class="pure-u-1 pure-u-md-1-3">
+										<label for="password"><i class="fa fa-key"></i> 비밀번호</label>
+										<input id="password" type="password" maxlength="8" name="[##_rp_input_password_##]" value="[##_rp_admin_check_##]" class="pure-u-1 pure-u-md-23-24"/>
+									</div>
+									<div class="pure-u-1 pure-u-md-1-3">
+										<label for="homepage"><i class="fa fa-home"></i> 홈페이지</label>
+										<input id="homepage" type="text" name="[##_rp_input_homepage_##]" value="[##_guest_homepage_##]" class="pure-u-1 pure-u-md-23-24"/>
+									</div>
 								</div>
 							</fieldset>
 							</s_rp_guest>
