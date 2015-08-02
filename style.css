@@ -145,7 +145,7 @@ body, .pure-g [class*="pure-u"] { font-family: 'Raleway', 'NanumBarunGothic', sa
 /* ≥ 768px */
 @media (min-width: 48em) {
 .text-right-md { text-align: right; }
-.header { position: fixed; top:0; bottom: 0; }
+.header { position: fixed; top:0; bottom: 0; min-height: 700px; }
 .header .profile { margin: 20% 1.5em 0; float: none; }
 .header .profile img { width: 150px; border: 5px solid #fff; }
 .header .blog-title { float: none; margin: 0.5em auto; font-weight: 700; }
