@@ -93,6 +93,17 @@ body, .pure-g [class*="pure-u"] { font-family: 'Raleway', 'NanumBarunGothic', sa
 .article .text .txc-info { margin: 0 auto 1em !important; max-width: 530px; width: 100% !important; }
 .article .text .fb_iframe_widget { display: block; width: 100%; }
 .article .text .fb_iframe_widget span { display: block; margin: 0 auto 1em; }
+/* 카테고리 글 더보기 */
+.article .text .another_category { border-width: 1px 0 0; border-color: #ccc !important; padding: 1.5em 0 0; margin: 1.5em 0 0; }
+.article .text .another_category * { color: #666 !important; }
+.article .text .another_category h4 { font-weight: 400; font-size: 1.2em !important; color: #444 !important; border-bottom-width: 0 !important; }
+.article .text .another_category h4 a { color: #444 !important; }
+.article .text .another_category h4:before { font-family: FontAwesome; content: "\f03a"; margin-right: 0.3em; }
+.article .text .another_category table th { background-color: transparent; font-size: 1em !important; }
+.article .text .another_category table th a.current { color: #444 !important; }
+.article .text .another_category table th a:hover { border-bottom: 1px solid #909090 !important; color: #444 !important; text-decoration: none; }
+.article .text .another_category table th a:before { font-family: FontAwesome; content: "\f040"; margin-right: 0.3em; }
+.article .text .another_category table td { display: none; }
 /* 글 하단영역 */
 .article .tagTrail, .article .actionTrail { margin: 1em 0; }
 .article .tagTrail a:before { content: "#"; }
