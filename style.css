@@ -1,0 +1,185 @@
+@charset 'UTF-8';
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Raleway'), url(http://fonts.gstatic.com/s/raleway/v9/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2'), url(http://fonts.gstatic.com/s/raleway/v9/IczWvq5y_Cwwv_rBjOtT0w.woff) format('woff');
+}
+
+/* 공통 */
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+a:link, a:visited { color: #39f; text-decoration: none; cursor: pointer; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; -ms-transition: all 0.5s ease; }
+a:link:hover, a:visited:hover { color: #0bf; text-decoration: underline; }
+a i, a i:hover { color: #333; }
+h1,h2,h3,h4,h5,h6 { font-weight: 700; margin: 0.5em auto; }
+body { overflow-x: hidden; }
+body, .pure-g [class*="pure-u"] { font-family: 'Raleway', 'NanumBarunGothic', sans-serif; font-weight: 300; color: #444; }
+
+/* 헤더 */
+.header { text-align: center; background-position: cover; padding: 1em; overflow-y: hidden; }
+.header .blog-title { float: left; margin: 0 0 0 0.3em; font-weight: 400; }
+.header .blog-title a:hover { color: #fff; }
+.header .tagline { display: none; }
+.header .profile { float: left; }
+.header .profile img { border-radius: 50%; width: 40px; height: auto; max-width: 100%; object-fit: cover; border: 3px solid #fff; }
+.header nav { display: none; }
+.header nav ul { list-style: none; padding-left: 0; }
+.header nav li { margin: 0 auto 0.8em; width: 80%; max-width: 250px; }
+.header nav li a { display: block; border: 3px solid #fff; color: #fff !important; padding: 0.5em 1em; border-radius: 3px; }
+.header #slicknav { display: block; }
+.header .slicknav_menu { background-color: transparent; padding: 0; }
+.header .slicknav_menu .slicknav_btn { background-color: transparent; }
+.header .slicknav_menu .slicknav_menutxt { display: none; }
+.header .slicknav_menu .slicknav_icon { margin: 0; }
+.header .slicknav_nav { padding-top: 1em; }
+.header .slicknav_nav li { margin-bottom: 0.8em; }
+.header .slicknav_nav li a { color: #fff !important; border: 3px solid #fff;  padding: 0.5em 1em; margin: 0; border-radius: 6px; font-size: 1.1em; }
+.header .slicknav_nav li a:hover { background-color: transparent; }
+.header .searchbox { display: none; }
+
+/* 컨텐츠영역 */
+.content { padding: 1.5em 1em 2em; }
+.article, .page, .paging, .footer { overflow-x: hidden; max-width: 1080px; }
+
+/* 페이지 */
+.page { border-bottom: 1px solid #eee; padding: 1em 0; }
+.page .page-title { font-size: 2em; margin-bottom: 0.5em; padding-bottom: 0.5em; border-bottom: 1px solid #ccc; }
+.page ul { list-style: none; padding-left: 0; }
+/* 태그로그 */
+.page.taglog li { display: inline-block; }
+.page.taglog a { color: #333; }
+.page.taglog a:before { content: "#"; }
+.page.taglog a.cloud1 { font-size: 1.4em; font-weight: 400; }
+.page.taglog a.cloud2 { font-size: 1.3em; font-weight: 400; }
+.page.taglog a.cloud3 { font-size: 1.2em; }
+.page.taglog a.cloud4 { font-size: 1.1em; }
+/* 위치로그 */
+.page.localog .location { margin-left: 1em; }
+/* 글 검색 */
+.page.search ul { list-style: none; padding-left: 0; }
+.page.search li { border-bottom: 1px dotted #ccc; padding-bottom: 0.3em; margin-bottom: 0.5em; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+/* 방명록 */
+.page.guestbook .guestWrite .pure-group input { margin-top: 0.3em; }
+.page.guestbook .guestWrite textarea { margin-bottom: 1em; min-height: 5em; }
+.page.guestbook .guestList { clear: both; }
+.page.guestbook .guestList ol { list-style: none; padding-left: 0; }
+.page.guestbook .guestList ul > li { margin-bottom: 1em; }
+.page.guestbook .guestList ol ol { margin-bottom: 0; }
+/* 미디어로그 */
+#mediaLogLimit select { display: inline-block; margin: 0.25em 0 !important; width: 45%; height: 2.25em; border: 1px solid #ccc; background-color: #fff !important; color: #333 !important; font-size: 1em !important; box-shadow: 0 1px 3px #ddd inset; border-radius: 4px; vertical-align: middle; letter-spacing: 0.01em; padding: 0.3em 0.5em; }
+
+/* 글 상단영역 */
+.article .post-title { font-size: 2em; margin-bottom: 0.3em; }
+.article .post-title a:hover { color: #333; }
+.article .metadata { font-size: 1em; }
+.article .admin { margin-top: 0.5em; }
+/* 글 본문영역 */
+.article .text { border-bottom: 1px solid #eee; padding: 1em 0; }
+.article .text p { line-height: 150%; padding-bottom: 1em; }
+.article .text blockquote { border-left: 3px solid #ccc; padding-left: 1em; color: #777; margin: 1em; }
+.article .text blockquote p { padding-bottom: 0; }
+.article .text img { max-width: 100%; height: auto !important; }
+.article .text .imageblock { width: 100% !important; }
+.article .text .imageblock .ExifInfo { font-size: 80%; }
+.article .text .imageblock .cap1 { color: #777; width: 100% !important; }
+.article .text .moreless_fold, .article .text .moreless_bottom, .article .text .moreless_top { padding-bottom: 0; }
+.article .text .moreless_fold span:before { font-family: FontAwesome; content: "\f13a"; margin-right: 0.3em; }
+.article .text .moreless_top span:before, .article .text .moreless_bottom span:before { font-family: FontAwesome; content: "\f139"; margin-right: 0.3em; }
+.article .text iframe { margin: 0 auto 1em !important; }
+.article .text table { width: 95%; margin: 1em auto; }
+.article .text table th { padding: 0.5em 1em; background-color: #ddd; }
+.article .text table td { padding: 0.5em 1em; border-bottom: 1px solid #ccc; }
+.article .text table p { margin: 0; padding: 0; }
+.article .text .txc-info { margin: 0 auto 1em !important; max-width: 530px; width: 100% !important; }
+.article .text .fb_iframe_widget { display: block; width: 100%; }
+.article .text .fb_iframe_widget span { display: block; margin: 0 auto 1em; }
+/* 카테고리 글 더보기 */
+.article .text .another_category { border-width: 1px 0 0; border-color: #ccc !important; padding: 1.5em 0 0; margin: 1.5em 0 0; }
+.article .text .another_category * { color: #666 !important; }
+.article .text .another_category h4 { font-weight: 400; font-size: 1.2em !important; color: #444 !important; border-bottom-width: 0 !important; }
+.article .text .another_category h4 a { color: #444 !important; }
+.article .text .another_category h4:before { font-family: FontAwesome; content: "\f03a"; margin-right: 0.3em; }
+.article .text .another_category table th { background-color: transparent; font-size: 1em !important; }
+.article .text .another_category table th a.current { color: #444 !important; }
+.article .text .another_category table th a:hover { border-bottom: 1px solid #909090 !important; color: #444 !important; text-decoration: none; }
+.article .text .another_category table th a:before { font-family: FontAwesome; content: "\f040"; margin-right: 0.3em; }
+.article .text .another_category table td { display: none; }
+/* 글 하단영역 */
+.article .tagTrail, .article .actionTrail { margin: 1em 0; }
+.article .tagTrail a:before { content: "#"; }
+.article .actionTrail { text-align: right; }
+.article .trackback h3 { text-align: center; font-weight: 400; font-size: 1.1em; letter-spacing: -1px; }
+.article .trackback ul, .article .commentList ul { list-style: none; padding-left: 0; }
+.article .commentList ul > li { margin-bottom: 1em; }
+.article .commentList ul ul { margin-bottom: 0; }
+.article .commentWrite .pure-group input { margin-top: 0.3em; }
+.article .commentWrite textarea { margin-bottom: 1em; min-height: 5em; }
+.article .commentWrite .text-center span { display: block; }
+.article .commentWrite .text-center span label { display: inline; }
+.article .commentWrite .text-center span button { margin-top: 0.5em; }
+
+/* 페이징 */
+.paging { text-align: center; margin: 1em 0; }
+.paging .no-more-prev, .paging .no-more-next { color: #777; }
+.paging .no-more-prev:hover, .paging .no-more-next:hover { text-decoration: none; cursor: default; }
+.paging .num { margin: 0 0.1em; }
+.paging .num .selected { font-weight: 700; font-size: 1.1em; }
+
+/* 푸터 */
+.footer { margin-top: 2em; text-align: center; font-size: 0.9em; color: #aaa; line-height: 180%; }
+
+/* 숨기기 */
+.tistorytoolbarid, .tistorytoolbar { display: none; }/* 상단 티스토리 툴바 */
+[id^='tistoryFootnoteLayer_'] { display: none; }/* 각주 팝업 */
+
+/* custom style */
+.color-dark { color: #333 !important; }
+.color-white { color: #fff !important; }
+.box-grey { background: #fafafa; border: 1px solid #eee; padding: 1em; }
+.box-grey p { clear: both; }
+.box-grey .control { font-size: 0.95em; float: right; margin: 0.5em 0; }
+.box-grey .box-grey { background: #f9f9f9; border-color: #eaeaea; }
+.dotted a { color: #333; border-bottom: 1px dotted #555; }
+.dotted a:hover { text-decoration: none; border-bottom: 1px solid #0bf; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; -ms-transition: all 0.5s ease; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+
+/* ≥ 568px */
+@media (min-width: 35.5em) {
+.header .slicknav_menu .slicknav_btn { background-color: #222; }
+.header .slicknav_menu .slicknav_menutxt { display: inline; }
+.header .slicknav_menu .slicknav_icon { margin: 0.188em 0 0 0.438em; }
+.footer .copyright1 { text-align: left; }
+.footer .copyright2 { text-align: right; }
+}
+
+/* ≥ 768px */
+@media (min-width: 48em) {
+.text-right-md { text-align: right; }
+.header { position: fixed; top:0; bottom: 0; min-height: 700px; }
+.header .profile { margin: 20% 1.5em 0; float: none; }
+.header .profile img { width: 150px; border: 5px solid #fff; }
+.header .blog-title { float: none; margin: 0.5em auto; font-weight: 700; }
+.header .tagline { display: block; }
+.header nav { display: block; }
+.header #slicknav { display: none; }
+.header .searchbox { display: block; position: absolute; bottom: 0; left: 0; margin-bottom: 3em; width: 100%; }
+.header .searchbox input { max-width: 300px; }
+.content { margin-left: 25%; padding: 2em 3em; }
+.article .text blockquote { margin: 1em 2em; }
+.article .commentWrite .text-center span { display: inline; }
+.article .commentWrite .text-center span label { display: inline; }
+.article .commentWrite .text-center span button { margin-top: 0em; }
+}
+
+/* ≥ 1024px */
+@media (min-width: 64em) {
+.header .profile img { width: 200px; }
+}
+
+/* ≥ 1280px */
+@media (min-width: 80em) {
+.header .profile { margin: 40% 2em 0; }
+.header nav li { display: inline-block; width: 40%; margin: 0 0.3em 0.8em; }
+.sidebar { display: inline-block; }
+}
