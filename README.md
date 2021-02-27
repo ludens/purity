@@ -7,9 +7,9 @@
 
 ## 스킨정보
 
-- 데모페이지: [http://pure.ludens.kr](http://pure.ludens.kr)
-- 스킨 소스: [https://github.com/ludens/purity](https://github.com/ludens/purity)
-- 스킨 다운로드: [https://github.com/ludens/purity/archive/master.zip](https://github.com/ludens/purity/archive/master.zip)
+- 데모페이지: <http://pure.ludens.kr>
+- 스킨 소스: <https://github.com/ludens/purity>
+- 스킨 다운로드: <https://github.com/ludens/purity/archive/master.zip>
 - 컨텐츠 가로폭: 최대 1080px
 - 적용폰트: Noto Sans KR
 
@@ -42,31 +42,3 @@
 
 - 1.0 버전 첫 공개
 - Pure CSS: 0.6.0 버전 사용
-
-## Commands for build
-
-### for test
-
-```bash
-pug pug/index.xml.pug -P -o ./ &&
-mv index.xml.html index.xml &&
-pug pug/skin.pug -P -O '{test: true}' -o ./ &&
-stylus stylus/style.styl -o ./ &&
-tsc -outfile ./images/script.js typescript/script.ts
-```
-
-### for release
-
-```bash
-pug pug/index.xml.pug -P -o ./ &&
-mv index.xml.html index.xml &&
-pug pug/skin.pug -P -o ./ &&
-stylus stylus/style.styl -o ./ &&
-tsc -outfile ./images/script.js typescript/script.ts
-```
-
-### for release branch
-
-```bash
-git checkout origin/dev -- images/ *.html *.xml *.css
-```
