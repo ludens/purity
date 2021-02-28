@@ -1,79 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <skin>
-	<information>
-		<name>Pure</name>
-		<version>1.0</version>
-		<description>
-			<![CDATA[ Pure CSS를 활용한 티스토리 반응형 스킨입니다. 데스크탑보다는 모바일 환경에서 이쁘게 보입니다.]]>
-		</description>
-		<license>
-			<![CDATA[아래 저작권 표시만 남겨주시면 자유롭게 수정가능합니다 :)]]>
-		</license>
-		<tags>
-			<tag>반응형</tag> <tag>2단</tag> <tag>심플</tag>
-		</tags>
-	</information>
-	<author>
-		<name>Ludens</name>
-		<homepage>http://ludens.kr</homepage>
-		<email>me@ludens.kr</email>
-	</author>
-	<default>
-		<recentEntries>1</recentEntries>
-		<recentComments>5</recentComments>
-		<recentTrackbacks>5</recentTrackbacks>
-		<itemsOnGuestbook>5</itemsOnGuestbook>
-		<tagsInCloud>30</tagsInCloud>
-		<sortInCloud>3</sortInCloud>
-		<expandComment>0</expandComment>
-		<expandTrackback>0</expandTrackback>
-		<lengthOfRecentNotice>20</lengthOfRecentNotice>
-		<lengthOfRecentEntry>20</lengthOfRecentEntry>
-		<lengthOfRecentComment>20</lengthOfRecentComment>
-		<lengthOfRecentTrackback>20</lengthOfRecentTrackback>
-		<lengthOfLink>20</lengthOfLink>
-		<showListOnCategory>2</showListOnCategory>
-		<showListOnArchive>2</showListOnArchive>
-		<trackbackMessage>
-			<none>트랙백 &lt;span class="cnt"&gt;0&lt;/span&gt;개</none>
-			<single>트랙백 &lt;span class="cnt"&gt;1&lt;/span&gt;개</single>
-		</trackbackMessage>
-		<commentMessage>
-			<none>댓글 &lt;span class="cnt"&gt;0&lt;/span&gt;개가 달렸습니다.</none>
-			<single>댓글 &lt;span class="cnt"&gt;1&lt;/span&gt;개가 달렸습니다.</single>
-		</commentMessage>
-		<tree>
-			<color>666666</color>
-			<bgColor>f8f8f8</bgColor>
-			<activeColor>666666</activeColor>
-			<activeBgColor>f8f8f8</activeBgColor>
-			<labelLength>27</labelLength>
-			<showValue>1</showValue>
-		</tree>
-		<contentWidth>1080</contentWidth>
-		<layout>2</layout>
-		<toolbar>white</toolbar>
-		<menuList>
-			<menu>
-				<menuId>1</menuId>
-				<menuName>홈</menuName>
-			</menu>
-			<menu>
-				<menuId>4</menuId>
-				<menuName>지역로그</menuName>
-			</menu>
-			<menu>
-				<menuId>2</menuId>
-				<menuName>태그로그</menuName>
-			</menu>
-			<menu>
-				<menuId>3</menuId>
-				<menuName>미디어로그</menuName>
-			</menu>
-			<menu>
-				<menuId>6</menuId>
-				<menuName>방명록</menuName>
-			</menu>
-		</menuList>
-	</default>
+  <information>
+    <name>Pure</name>
+    <version>2.0</version>
+    <description><![CDATA[Pure CSS와 CSS의 Flex 속성을 활용한 티스토리 반응형 스킨입니다. 데스크탑보다는 모바일 환경에서 이쁘게 보입니다.]]></description>
+    <license><![CDATA[스킨 하단의 저작권 표시만 남겨주시면 자유롭게 수정가능합니다 :)]]></license>
+    <tags>
+      <tag>반응형</tag>
+      <tag>2단</tag>
+      <tag>심플</tag>
+    </tags>
+  </information>
+  <author>
+    <name>Ludens</name>
+    <homepage>http://ludens.kr</homepage>
+    <email>me@ludens.kr</email>
+  </author><default>
+  <itemsOnGuestbook>10</itemsOnGuestbook>
+  <tagsInCloud>30</tagsInCloud>
+  <sortInCloud>3</sortInCloud>
+  <expandComment>0</expandComment>
+  <entriesOnPage>5</entriesOnPage>
+  <entriesOnList>10</entriesOnList>
+  <showListOnCategory>0</showListOnCategory>
+  <showListOnArchive>0</showListOnArchive>
+  <showListLock>0</showListLock></default>
+  <tree>
+    <color>666666</color>
+    <bgColor>f8f8f8</bgColor>
+    <activeColor>666666</activeColor>
+    <activeBgColor>f8f8f8</activeBgColor>
+    <labelLength>27</labelLength>
+    <showValue>1</showValue>
+  </tree>
+  <contentWidth>1080</contentWidth>
 </skin>
