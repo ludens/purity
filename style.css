@@ -366,37 +366,9 @@ ul.list-result {
 
 .list .list-item,
 ul.list-result > .list-item {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.75em;
   border-bottom: 1px dotted var(--color-line);
   padding: 0.6em 0;
   margin: 0;
-}
-
-.list .list-item-body {
-  flex: 1;
-  min-width: 0;
-  order: 1;
-}
-
-.list .list-thumb {
-  order: 2;
-  flex: 0 0 4.5rem;
-  width: 4.5rem;
-  height: 4.5rem;
-}
-
-.list .list-thumb img {
-  display: block;
-  width: 4.5rem;
-  height: 4.5rem;
-  object-fit: cover;
-}
-
-#tt-body-index .list-thumb {
-  display: none;
 }
 
 .list .list-item .article-comments {
