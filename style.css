@@ -694,85 +694,6 @@ ul.list-result > .list-item {
   content: '#';
 }
 
-/* 관련 글 */
-.article-related {
-  padding: 1.25em 0 0;
-  border-top: 1px solid var(--color-line);
-}
-
-.related-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 1em;
-  margin-bottom: 0.75em;
-}
-
-.related-title {
-  font-size: 1.05em;
-  margin: 0;
-}
-
-.related-more {
-  color: var(--color-text);
-  border-bottom: 1px dotted var(--color-line);
-  font-size: 0.9em;
-}
-
-.related-list {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-  display: grid;
-  gap: 0.6em;
-}
-
-@media (min-width: 48em) {
-  .related-list {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-.related-item {
-  display: flex;
-  align-items: center;
-  gap: 0.75em;
-  min-width: 0;
-}
-
-.related-thumb {
-  flex: 0 0 4.5rem;
-  width: 4.5rem;
-  height: 4.5rem;
-}
-
-.related-thumb img {
-  display: block;
-  width: 4.5rem;
-  height: 4.5rem;
-  object-fit: cover;
-}
-
-.related-body {
-  min-width: 0;
-  flex: 1;
-}
-
-.related-link {
-  display: block;
-  color: var(--color-text);
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.related-date {
-  display: block;
-  font-size: 0.85em;
-  color: var(--color-text);
-  opacity: 0.8;
-}
-
 /* 이전/다음 */
 .article-nav {
   display: grid;
@@ -785,40 +706,14 @@ ul.list-result > .list-item {
 
 .article-prev,
 .article-next {
-  display: flex;
-  align-items: center;
-  gap: 0.75em;
+  display: block;
   min-width: 0;
-  max-width: none;
   color: var(--color-text);
   text-decoration: none;
 }
 
 .article-next {
-  flex-direction: row-reverse;
   text-align: right;
-  margin-left: 0;
-}
-
-.nav-thumb {
-  flex: 0 0 4.5rem;
-  width: 4.5rem;
-  height: 4.5rem;
-}
-
-.nav-thumb img,
-.article-prev img,
-.article-next img {
-  display: block;
-  width: 4.5rem;
-  height: 4.5rem;
-  object-fit: cover;
-  margin: 0;
-}
-
-.nav-body {
-  min-width: 0;
-  flex: 1;
 }
 
 .nav-label {
