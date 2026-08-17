@@ -395,6 +395,10 @@ ul.list-result > .list-item {
   object-fit: cover;
 }
 
+#tt-body-index .list-thumb {
+  display: none;
+}
+
 .list .list-item .article-comments {
   font-size: 0.8em;
   margin-left: 0.1em;
@@ -579,6 +583,14 @@ ul.list-result > .list-item {
   display: flex;
   flex-direction: column;
   gap: 0.75em;
+  padding-bottom: 1.25em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.article-summary .article-content {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 .article-thumb {
