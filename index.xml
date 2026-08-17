@@ -2,8 +2,8 @@
 <skin>
   <information>
     <name>Pure</name>
-    <version>2.0</version>
-    <description><![CDATA[Pure CSS와 CSS의 Flex 속성을 활용한 티스토리 반응형 스킨입니다. 데스크탑보다는 모바일 환경에서 이쁘게 보입니다.]]></description>
+    <version>3.0</version>
+    <description><![CDATA[Pure CSS를 활용한 티스토리 반응형 스킨입니다. 데스크탑보다는 모바일 환경에서 이쁘게 보입니다.]]></description>
     <license><![CDATA[스킨 하단의 저작권 표시만 남겨주시면 자유롭게 수정가능합니다 :)]]></license>
     <tags>
       <tag>반응형</tag>
@@ -13,25 +13,38 @@
   </information>
   <author>
     <name>Ludens</name>
-    <homepage>http://ludens.kr</homepage>
+    <homepage>https://ludens.kr</homepage>
     <email>me@ludens.kr</email>
-  </author><default>
-  <itemsOnGuestbook>10</itemsOnGuestbook>
-  <tagsInCloud>30</tagsInCloud>
-  <sortInCloud>3</sortInCloud>
-  <expandComment>0</expandComment>
-  <entriesOnPage>5</entriesOnPage>
-  <entriesOnList>10</entriesOnList>
-  <showListOnCategory>0</showListOnCategory>
-  <showListOnArchive>0</showListOnArchive>
-  <showListLock>0</showListLock></default>
-  <tree>
-    <color>666666</color>
-    <bgColor>f8f8f8</bgColor>
-    <activeColor>666666</activeColor>
-    <activeBgColor>f8f8f8</activeBgColor>
-    <labelLength>27</labelLength>
-    <showValue>1</showValue>
-  </tree>
-  <contentWidth>1080</contentWidth>
+  </author>
+  <default>
+    <itemsOnGuestbook>10</itemsOnGuestbook>
+    <tagsInCloud>30</tagsInCloud>
+    <sortInCloud>3</sortInCloud>
+    <expandComment>1</expandComment>
+    <entriesOnPage>5</entriesOnPage>
+    <entriesOnList>10</entriesOnList>
+    <showListOnCategory>1</showListOnCategory>
+    <showListOnArchive>1</showListOnArchive>
+    <showListLock>0</showListLock>
+    <liststyle>list</liststyle>
+    <tree>
+      <color>666666</color>
+      <bgColor>f8f8f8</bgColor>
+      <activeColor>666666</activeColor>
+      <activeBgColor>f8f8f8</activeBgColor>
+      <labelLength>27</labelLength>
+      <showValue>1</showValue>
+    </tree>
+    <contentWidth>1080</contentWidth>
+  </default>
+  <liststyle>
+    <item>
+      <label>목록</label>
+      <value>list</value>
+    </item>
+    <item>
+      <label>카드</label>
+      <value>card</value>
+    </item>
+  </liststyle>
 </skin>
