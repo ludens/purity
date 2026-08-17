@@ -1,6 +1,6 @@
 # Purity 티스토리 스킨
 
-![Purity Tistory Skin](https://tistory1.daumcdn.net/tistory/1663255/skin/images/purity-skin.png)
+![Purity Tistory Skin](https://t1.daumcdn.net/cfile/tistory/2131A53355BA10953C)
 
 전체적으로 깔끔한 느낌을 주려고 노력했고, 데스크탑 환경보다는 모바일 환경을 고려해서 만들었습니다.  
 데스크탑에서 보는것보다 모바일이나 태블릿에서 더 이쁘게 나옵니다. :)
