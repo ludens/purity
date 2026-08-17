@@ -1,18 +1,22 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var mobilenav_button = document.getElementById('mobilenav-button');
-    mobilenav_button.onclick = function () {
-        var mobilenav_check = document.getElementById('mobilenav-check');
-        var mobilenav_icon = document.getElementById('mobilenav-icon');
-        var blog_nav = document.getElementById('blog-nav');
-        if (mobilenav_check.checked === true) {
-            // ON → OFF
-            mobilenav_icon.textContent = 'menu';
-            blog_nav.classList.remove('nav-on');
-        }
-        else {
-            // OFF → ON
-            mobilenav_icon.textContent = 'clear';
-            blog_nav.classList.add('nav-on');
-        }
-    };
+  var check = document.getElementById('mobilenav-check');
+  var button = document.getElementById('mobilenav-button');
+  var nav = document.getElementById('blog-nav');
+  if (!check || !button || !nav) return;
+
+  function sync() {
+    var open = check.checked;
+    button.classList.toggle('is-open', open);
+    button.setAttribute('aria-expanded', open ? 'true' : 'false');
+    nav.classList.toggle('nav-on', open);
+  }
+
+  check.addEventListener('change', sync);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && check.checked) {
+      check.checked = false;
+      sync();
+    }
+  });
+  sync();
 });
