@@ -462,12 +462,16 @@ ul.list-result > .list-item {
   content: '#';
 }
 
+#taglog a.taglog-link.cloud5 {
+  font-size: 0.9em;
+}
+
 #taglog a.taglog-link.cloud4 {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 #taglog a.taglog-link.cloud3 {
-  font-size: 1.2em;
+  font-size: 1.15em;
 }
 
 #taglog a.taglog-link.cloud2 {
@@ -475,7 +479,7 @@ ul.list-result > .list-item {
 }
 
 #taglog a.taglog-link.cloud1 {
-  font-size: 1.4em;
+  font-size: 1.5em;
   font-weight: 500;
 }
 
