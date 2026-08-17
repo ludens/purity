@@ -513,7 +513,15 @@ ul.list-result > .list-item {
 
 .article .article-content img {
   max-width: 100%;
-  height: auto;
+  height: auto !important;
+}
+
+.article .article-content .imageblock,
+.article .article-content .imageblock img,
+.article .article-content .cap1 {
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
 }
 
 .article .article-content blockquote {
