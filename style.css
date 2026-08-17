@@ -511,24 +511,37 @@ ul.list-result > .list-item {
 .article .article-content iframe,
 .article .article-content video {
   max-width: 100%;
-  height: auto !important;
 }
 
 .article .article-content iframe {
   width: 100%;
   aspect-ratio: 16 / 9;
+  height: auto;
 }
 
 .article .article-content figure {
   max-width: 100%;
 }
 
-.article .article-content .imageblock,
-.article .article-content .imageblock img,
+.article .article-content span.imageblock,
+.article .article-content span.imageblock img,
 .article .article-content .cap1 {
   max-width: 100% !important;
   width: auto !important;
   height: auto !important;
+}
+
+.article .article-content .imageslideblock .image-container {
+  background-color: transparent;
+  min-width: 0;
+  min-height: 0;
+}
+
+.article .article-content .imageslideblock img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .article .article-content blockquote {
