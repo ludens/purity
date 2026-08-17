@@ -16,8 +16,6 @@
 
 ## 스킨 사용시 권장 설정
 
-![Purity Tistory Skin](https://tistory4.daumcdn.net/tistory/1663255/skin/images/purity-skin-settings.png)
-
 홈 설정의 목록 구성 요소는 **내용만**, 기본 설정의 목록 구성 요소는 **목록만**으로 설정하시는 것을 권장합니다.
 
 ## 사용한 라이브러리
