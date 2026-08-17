@@ -7,7 +7,7 @@
 
 ## 스킨정보
 
-- 데모페이지: <https://pure.ludens.kr>
+- 데모페이지: <https://puredemo.tistory.com>
 - 스킨 소스: <https://github.com/ludens/purity>
 - 스킨 다운로드: <https://github.com/ludens/purity/archive/master.zip>
 - 컨텐츠 가로폭: 최대 1080px
