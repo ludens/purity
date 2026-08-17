@@ -19,7 +19,7 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  font-family: "Noto Sans KR", "Noto Sans CJK KR", "나눔고딕", "Nanum Gothic", "맑은 고딕", "Malgun Gothic", sans-serif;
   font-weight: 400;
   word-break: keep-all;
   color: var(--color-text);

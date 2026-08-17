@@ -11,7 +11,7 @@
 - 스킨 소스: <https://github.com/ludens/purity>
 - 스킨 다운로드: <https://github.com/ludens/purity/archive/master.zip>
 - 컨텐츠 가로폭: 최대 1080px
-- 적용폰트: 시스템 UI (Apple SD Gothic Neo / Malgun Gothic 등)
+- 적용폰트: Noto Sans KR, Noto Sans CJK KR, 나눔고딕, 맑은 고딕, sans-serif
 - 버전: 3.0
 
 ## 스킨 사용시 권장 설정
