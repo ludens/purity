@@ -503,9 +503,20 @@ ul.list-result > .list-item {
   border-bottom: 1px solid var(--color-line);
 }
 
-.article .article-content img {
+.article .article-content img,
+.article .article-content iframe,
+.article .article-content video {
   max-width: 100%;
   height: auto !important;
+}
+
+.article .article-content iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.article .article-content figure {
+  max-width: 100%;
 }
 
 .article .article-content .imageblock,
