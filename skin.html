@@ -189,9 +189,15 @@
                   <s_tag_label>
                     <div class="article-tag"><span class="icon icon-label" aria-hidden="true"></span>[##_tag_label_rep_##]</div>
                   </s_tag_label>
+                  <s_rp>
+                    <div class="article-comment">[##_comment_group_##]</div>
+                  </s_rp>
                   <s_article_related>
                     <div class="article-related">
-                      <h3 class="related-title">같은 카테고리 글</h3>
+                      <div class="related-head">
+                        <h3 class="related-title">같은 카테고리 글</h3>
+                        <a class="related-more" href="[##_article_rep_category_link_##]">더보기</a>
+                      </div>
                       <ul class="related-list">
                         <s_article_related_rep>
                           <li class="related-item [##_article_related_rep_type_##]">
@@ -205,34 +211,32 @@
                           </li>
                         </s_article_related_rep>
                       </ul>
-                      <a class="related-more" href="[##_article_rep_category_link_##]">더보기</a>
                     </div>
                   </s_article_related>
-                  <div class="article-nav">
+                  <nav class="article-nav">
                     <s_article_prev>
                       <a class="article-prev [##_article_prev_type_##]" href="[##_article_prev_link_##]">
                         <s_article_prev_thumbnail>
-                          <img src="[##_article_prev_thumbnail_link_##]" alt="" loading="lazy">
+                          <span class="nav-thumb"><img src="[##_article_prev_thumbnail_link_##]" alt="" loading="lazy"></span>
                         </s_article_prev_thumbnail>
-                        <span class="nav-label">이전</span>
-                        <span class="nav-title">[##_article_prev_title_##]</span>
-                        <span class="nav-date">[##_article_prev_date_##]</span>
+                        <span class="nav-body">
+                          <span class="nav-label">이전 글</span>
+                          <span class="nav-title">[##_article_prev_title_##]</span>
+                        </span>
                       </a>
                     </s_article_prev>
                     <s_article_next>
                       <a class="article-next [##_article_next_type_##]" href="[##_article_next_link_##]">
                         <s_article_next_thumbnail>
-                          <img src="[##_article_next_thumbnail_link_##]" alt="" loading="lazy">
+                          <span class="nav-thumb"><img src="[##_article_next_thumbnail_link_##]" alt="" loading="lazy"></span>
                         </s_article_next_thumbnail>
-                        <span class="nav-label">다음</span>
-                        <span class="nav-title">[##_article_next_title_##]</span>
-                        <span class="nav-date">[##_article_next_date_##]</span>
+                        <span class="nav-body">
+                          <span class="nav-label">다음 글</span>
+                          <span class="nav-title">[##_article_next_title_##]</span>
+                        </span>
                       </a>
                     </s_article_next>
-                  </div>
-                  <s_rp>
-                    <div class="article-comment">[##_comment_group_##]</div>
-                  </s_rp>
+                  </nav>
                 </div>
               </s_permalink_article_rep>
             </article>
