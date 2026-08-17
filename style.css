@@ -360,19 +360,39 @@ textarea:focus-visible {
 /* 목록 스타일: list */
 .list .list-result,
 ul.list-result {
-  list-style: none inside;
+  list-style: none;
   padding-left: 0;
 }
 
 .list .list-item,
 ul.list-result > .list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.75em;
   border-bottom: 1px dotted var(--color-line);
-  padding-bottom: 0.3em;
-  margin-bottom: 0.5em;
+  padding: 0.6em 0;
+  margin: 0;
 }
 
-.list .list-item img {
-  display: none;
+.list .list-item-body {
+  flex: 1;
+  min-width: 0;
+  order: 1;
+}
+
+.list .list-thumb {
+  order: 2;
+  flex: 0 0 4.5rem;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.list .list-thumb img {
+  display: block;
+  width: 4.5rem;
+  height: 4.5rem;
+  object-fit: cover;
 }
 
 .list .list-item .article-comments {
@@ -571,7 +591,7 @@ ul.list-result > .list-item {
 @media (min-width: 48em) {
   .article-summary {
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .article-summary-body {
