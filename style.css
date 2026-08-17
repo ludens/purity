@@ -642,6 +642,7 @@ ul.list-result > .list-item {
 }
 
 .article-next {
+  grid-column: 2;
   text-align: right;
 }
 
